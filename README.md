@@ -20,6 +20,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; `
 [System.Net.ServicePointManager]::SecurityProtocol = `
 [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
 iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
 
 ## 📦 Essential Commands
 
@@ -27,3 +28,12 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocola
 
 ```
 choco install <appname> -y
+```
+
+### Install Multipal Apps
+
+```
+choco install 7zip vscode git googlechrome -y
+```
+
+You can replace these with any apps of your choice.
