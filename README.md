@@ -106,6 +106,4 @@ choco install vlc 7zip vscode git googlechrome obsidian powertoys spotify discor
 
 ## 📢 Stay Updated
 
--⭐ Star the repo to get the latest recommendations
--💡 Suggest new apps via Issues
--🔧 Contribute directly via Pull Requests
+⭐ Star the repo to get the latest recommendations
