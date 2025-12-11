@@ -86,6 +86,16 @@ Replace <appname> with the App of your choice.
 
 Here’s a growing list of recommended apps. Copy/paste the ones you want:
 
+| Category     | Apps (Chocolatey IDs)                                                                 |
+|--------------|----------------------------------------------------------------------------------------|
+| Utilities    | `7zip`, `powertoys`, `sysinternals`, `everything`, `windirstat`, `rufus`, `ditto`, `greenshot` |
+| Productivity | `notepadplusplus`, `libreoffice-fresh`, `obsidian`, `slack`, `zoom`, `dropbox`, `thunderbird` |
+| Browsers     | `googlechrome`, `firefox`, `brave`, `opera`, `tor-browser`                            |
+| Media        | `vlc`, `spotify`, `audacity`, `gimp`, `inkscape`, `handbrake`, `youtube-dl`, `ffmpeg` |
+| Dev Tools    | `git`, `vscode`, `nodejs`, `python`, `docker-desktop`, `postman`, `visualstudio2022community`, `mysql`, `powershell-core` |
+| Gaming       | `steam`, `epicgameslauncher`, `discord`, `battle.net`, `goggalaxy`, `obs-studio`      |
+
+
 ## 🛠 Fresh PC Setup Script
 
 Want everything in one go? Save this as setup.ps1 and run it:
