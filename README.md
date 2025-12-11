@@ -30,10 +30,54 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocola
 choco install <appname> -y
 ```
 
-### Install Multipal Apps
+### Install Multiple Apps
 
 ```
 choco install 7zip vscode git googlechrome -y
 ```
 
 You can replace these with any apps of your choice.
+
+### List Installed Apps
+
+```
+choco list
+```
+
+### Search for Packages
+
+```
+choco search <appname>
+```
+
+### Check for Outdated Apps
+
+```
+choco outdated
+```
+
+### Update All Apps
+
+```
+choco upgrade all -y
+```
+
+### Update a Specific App
+
+```
+choco upgrade <appname> -y
+```
+
+### Install a Specific Version
+
+```
+choco install <appname> --version 1.0.0 -y
+```
+
+### Removing Apps
+
+```
+choco uninstall <appname>
+```
+
+Replace <appname> with the App of your choice. 
