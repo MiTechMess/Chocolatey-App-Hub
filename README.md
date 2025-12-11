@@ -21,3 +21,10 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; `
 [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
 iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
+## 📦 Essential Commands
+
+### Install a Single App
+
+```
+choco install <appname> -y
+```
