@@ -27,6 +27,9 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocola
   - [Install a Single App](#install-a-single-app)
   - [Install Multiple Apps](#install-multiple-apps)
   - [List Install Apps](#list-installed-apps)
+- [Curated App List](#-curated-app-list)
+- [Fresh PC Setup Script](#-fresh-pc-setup-script)
+- [Stay Updated](#-stay-updated)
 
 ## 📦 Essential Commands
 
