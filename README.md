@@ -81,3 +81,21 @@ choco uninstall <appname>
 ```
 
 Replace <appname> with the App of your choice. 
+
+## 🗂 Curated App List
+
+Here’s a growing list of recommended apps. Copy/paste the ones you want:
+
+## 🛠 Fresh PC Setup Script
+
+Want everything in one go? Save this as setup.ps1 and run it:
+
+```
+choco install vlc 7zip vscode git googlechrome obsidian powertoys spotify discord steam -y
+```
+
+## 📢 Stay Updated
+
+-⭐ Star the repo to get the latest recommendations
+-💡 Suggest new apps via Issues
+-🔧 Contribute directly via Pull Requests
