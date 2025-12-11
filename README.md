@@ -24,8 +24,10 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocola
 ## Table of Content
 
 - [Essential Commands](#-essential-commands)
-  - [Install a Single App](#install-a-single-app)
-  
+ - [Install a Single App](#install-a-single-app)
+ - [Install Multiple Apps](#install-multiple-apps)
+ - [List Install Apps](#list-installed-apps)
+
 ## 📦 Essential Commands
 
 ### Install a Single App
