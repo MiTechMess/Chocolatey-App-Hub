@@ -1,0 +1,1 @@
+choco install vlc 7zip vscode git googlechrome obsidian powertoys spotify discord steam -y
