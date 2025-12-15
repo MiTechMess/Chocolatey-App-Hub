@@ -29,6 +29,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocola
   - [List Install Apps](#list-installed-apps)
 - [Curated App List](#-curated-app-list)
 - [Fresh PC Setup Script](#-fresh-pc-setup-script)
+- [Choco Auto Update Apps Script](#-choco-auto-update-apps-script)
 - [Stay Updated](#-stay-updated)
 
 ## 📦 Essential Commands
@@ -111,6 +112,28 @@ Want everything in one go? Save this as setup.ps1 and run it:
 
 ```
 choco install vlc 7zip vscode git googlechrome obsidian powertoys spotify discord steam -y
+```
+## Choco Auto Update Apps Script
+```
+@echo off
+set title="Choco Auto App Updater"
+if not "%1"=="am_admin" (powershell start -verb runas '%0' am_admin & exit /b)
+echo ======================================
+echo Choco Auto App Updater 
+echo ======================================
+echo -- Updating apps... Please wait. 
+echo ======================================
+echo,
+
+choco upgrade all -y
+
+cls
+echo ====================================================================================
+echo - All apps updated. 
+echo - Closing in 5 seconds.
+echo ====================================================================================
+timeout /t 5 
+exit
 ```
 
 ## 📢 Stay Updated
